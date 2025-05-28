@@ -1,1 +1,9 @@
-
+--For streamlit
+streamlit
+openai-whisper
+torchaudio
+ffmpeg-python
+numpy<2
+streamlit-webrtc
+soundfile
+torch
