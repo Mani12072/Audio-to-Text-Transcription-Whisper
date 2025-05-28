@@ -1,5 +1,8 @@
 # Audio-to-Text-Transcription-Whisper
 # 📢 Speech-to-Text Transcription System Using Whisper
+ 
+The Streamlit application provided below only supports uploading audio files for transcription and does not include functionality for recording audio using a microphone.
+### **Link**: https://huggingface.co/spaces/Mpavan45/Audio_to_Text_by_Whisper
 
 ## Overview
 This project creates a system that converts spoken words into written text using OpenAI's Whisper model, a powerful tool for speech recognition. 
@@ -32,6 +35,28 @@ To make this system work, you need a few tools installed on your computer. Think
 
 You’ll install these tools step-by-step later in the guide.
 
+I’ve uploaded upload_conversion.py and microphone.py, but the output may vary despite using the same code. Additionally, I’ve included test audio files for evaluating the output.
+
+Note: Google Colab does not support audio recording, so it’s recommended to use Jupyter Notebook for recording functionality.
+
+## 🔧 Project Modules and Pipeline
+
+This project implements a speech-to-text transcription system using OpenAI's Whisper model. It supports audio input via microphone recording or file upload, applies noise reduction, and generates transcribed text with timestamps.
+
+### 📁 Project Structure
+
+    SpeechTranscription/
+    
+    ├── upload_document.py          # Handles upload and transcription of audio files (.wav, .mp3)
+    
+    ├── microphone.py               # Manages real-time audio recording and transcription
+    
+    ├── Streamlit-App              # Streamlit web interface for user-friendly interaction
+    
+    ├── Test-Files                 # Sample audio files for testing the transcription system
+    
+    ├── requirements.txt            # Project dependencies
+    
 ## 📥 How It Works (Step-by-Step)
 Here’s a deep dive into how the system operates, explained as if you’re building it from scratch. Each step is broken down to make it clear what’s happening and why it’s important.
 
