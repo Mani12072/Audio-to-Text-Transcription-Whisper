@@ -47,8 +47,8 @@ This project implements a speech-to-text transcription system using OpenAI's Whi
 
     SpeechTranscription/
     ├── Task-Audio-to-Text-Transcription
-      ├── upload_document.py          # Handles upload and transcription of audio files (.wav, .mp3)
-      ├── microphone.py               # Manages real-time audio recording and transcription
+      ├── Task-Audio-to-Text-Transcription.py          # Handles upload and transcription of audio files (.wav, .mp3)
+                                                       # Manages real-time audio recording and transcription
     ├── app.py              # Streamlit web interface for user-friendly interaction
     ├── Test-Files                 # Sample audio files for testing the transcription syste
     ├── requirements.txt            # Project dependencies
